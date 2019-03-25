@@ -15,3 +15,5 @@ function ImageThumbnail() {
 }
 
 ReactDOM.render(<ImageThumbnail/>, currentDiv);
+
+export default ImageThumbnail;
