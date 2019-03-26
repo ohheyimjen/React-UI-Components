@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import NumberButton from './components/ButtonComponents/NumberButton'
+import NumberButton from './components/ButtonComponents/NumberButton';
 
 const App = () => {
   return (
@@ -8,7 +8,7 @@ const App = () => {
     <div>
 
      <NumberButton />
-     
+
       <h3>Welcome to React Calculator</h3>
       <p>
         We have given you a starter project. You'll want to build out your
