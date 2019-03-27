@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 import NumberButton from './components/ButtonComponents/NumberButton';
-// import ActionButton from './components/ButtonComponents/ActionButton'
+import ActionButton from './components/ButtonComponents/ActionButton'
 
 const App = () => {
   return (
@@ -11,7 +11,8 @@ const App = () => {
 
      <CalculatorDisplay />
      <NumberButton />
-     {/* <ActionButton /> */}
+     <ActionButton />
+
 
       <h3>Welcome to React Calculator</h3>
       <p>
